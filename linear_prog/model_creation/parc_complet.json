@@ -1,0 +1,1284 @@
+{
+  "number_of_time_steps": 96,
+  "time_step_duration": 30,
+  "maximum_over_production": 2000,
+  "maximum_under_production": 2000,
+  "over_production_penalty": 135.15,
+  "under_production_penalty": 240.15,
+  "demand": [
+    2836.5524691358,
+    2581.59197530864,
+    2597.24012345679,
+    2353.75493827161,
+    2256.8762345679,
+    2082.73734567901,
+    2005.375,
+    2011.99938271605,
+    2086.70154320988,
+    2118.42345679012,
+    2420.10308641975,
+    2791.48580246914,
+    2984.89691358025,
+    3525.85339506173,
+    3298.60901851852,
+    4401.7897654321,
+    4598.6742191358,
+    4202.69422839506,
+    4000.00066049383,
+    4402.49132407407,
+    4701.75533950617,
+    4403.59556172839,
+    4403.16158641975,
+    4403.47611419753,
+    4402.82462962963,
+    4404.98407407407,
+    3904.97468518519,
+    3404.63877160494,
+    3405.87966975309,
+    3501.46793518519,
+    3802.64206790123,
+    3401.79602469136,
+    3401.97024074074,
+    3398.95432098765,
+    3400.03352160494,
+    3700.11854320988,
+    3007.95803703704,
+    3101.00735802469,
+    3098.28458024691,
+    2786.08209876543,
+    2598.08741358025,
+    2400.32509876543,
+    2399.68248148148,
+    2265.53086419753,
+    1934.98981481481,
+    1908.53182098765,
+    1466.9725308642,
+    1215.96790123457,
+    1302.98209876543,
+    1531.19043209877,
+    1974.21234567901,
+    2227.22407407407,
+    1858.72685185185,
+    1500.73271604938,
+    1500.62839506173,
+    1770.75709876543,
+    1865.32407407407,
+    2066.97654320988,
+    2320.69567901235,
+    2223.46851851852,
+    2201.54783950617,
+    2197.53920679012,
+    1926.04537037037,
+    1798.38525,
+    1800.71212962963,
+    2004.83072222222,
+    2103.8532345679,
+    2204.08795679012,
+    2302.94668518518,
+    2404.26791049383,
+    2405.02684567901,
+    2405.31112037037,
+    2404.09421604938,
+    2405.71066975309,
+    2406.49777160494,
+    2406.81125617284,
+    2406.46647530864,
+    2402.67388580247,
+    2403.61538271605,
+    2402.89139506173,
+    2401.71778395062,
+    2399.90990123457,
+    2404.11090740741,
+    2337.27158950617,
+    2270.3295154321,
+    2104.04935802469,
+    2077.77777777778,
+    2004.19290123457,
+    1994.13910802469,
+    1902.7124845679,
+    1735.94984259259,
+    1564.52561728395,
+    1130.69598765432,
+    1830.84020061728,
+    1907.58487654321,
+    2168.29537037037
+  ],
+  "electricity_prices": [
+    41.24100315050516,
+    42.372376214682916,
+    53.319865422804625,
+    37.34432559886574,
+    60.91843266617815,
+    18.42916135951453,
+    6.35447900965949,
+    1.969746570553234,
+    4.64254438109301,
+    23.702479491236346,
+    52.25176016010697,
+    30.208531042131415,
+    48.588491441982434,
+    55.50578780929886,
+    60.608512341605035,
+    45.65320367531106,
+    38.48824203422304,
+    49.890333651098345,
+    83.63499274142518,
+    73.272897686382585,
+    54.73989750482015,
+    49.363772142758606,
+    65.72994370996746,
+    46.47080376592039,
+    67.75191599490284,
+    37.153541941781505,
+    63.17867822875764,
+    37.04381673316251,
+    30.834866415720985,
+    48.27355983979432,
+    56.46683560905992,
+    45.45152934687117,
+    47.795508083371196,
+    28.30094326945528,
+    44.915760624903506,
+    43.36141529821092,
+    63.410767341634205,
+    58.00941551971917,
+    55.39235142882286,
+    39.14602890767392,
+    49.8198084226493,
+    23.13553137466869,
+    5.66437008494664,
+    3.813130049198314,
+    0.93138795834457,
+    8.533320309324218,
+    41.10418785631312,
+    41.280311190497954,
+    46.082349981217654,
+    43.01567217939453,
+    48.07051605037255,
+    43.33743064319679,
+    30.728022563606643,
+    50.19562224345208,
+    45.39207996561348,
+    67.7587005643222,
+    53.4054271885491,
+    52.69972556062307,
+    54.222747237411454,
+    56.522708617113395,
+    38.818438559401955,
+    54.71059068451146,
+    47.894002473761795,
+    50.91093699004323,
+    54.0104163761185,
+    39.73593945514124,
+    55.620808209812935,
+    49.81077966044153,
+    43.50075423648722,
+    31.445788463333713,
+    53.32906484831294,
+    46.81296820919096,
+    44.03069219644781,
+    53.04570406806979,
+    59.68152681964445,
+    49.192385051516226,
+    48.88390291121448,
+    62.34151328983202,
+    39.11954851824096,
+    51.077562989712106,
+    50.09460893531257,
+    52.312773031023,
+    40.832184212624554,
+    62.31086373471332,
+    56.571890454886734,
+    53.78799030780231,
+    56.02165201106365,
+    51.9292298021146,
+    50.80020457457134,
+    32.04360007509443,
+    53.51986644101707,
+    52.76461376925329,
+    57.70644370413481,
+    33.45525865808563,
+    22.315405946485804,
+    61.1875324964938
+  ],
+  "thermal_plants": [
+    {
+      "name": "thf01",
+      "proportionnal_cost": 41,
+      "production_levels": [
+        160,
+        187,
+        257,
+        513,
+        583,
+        710
+      ],
+      "startup_cost": 0,
+      "maximum_increase_rate": 80,
+      "maximum_decrease_rate": 80,
+      "maximum_number_of_startups": 12,
+      "minimum_online_duration": 360
+    },
+    
+    {
+      "name": "thf02",
+      "proportionnal_cost": 53,
+      "production_levels": [
+        160,
+        187,
+        257,
+        513,
+        583,
+        710
+      ],
+      "startup_cost": 0,
+      "maximum_increase_rate": 75,
+      "maximum_decrease_rate": 75,
+      "maximum_number_of_startups": 12,
+      "minimum_online_duration": 360
+    },   
+    {
+      "name": "thf03",
+      "proportionnal_cost": 57,
+      "production_levels": [
+        70,
+        75,
+        100,
+        140,
+        160,
+        170
+      ],
+      "startup_cost": 1000,
+      "maximum_increase_rate": 20,
+      "maximum_decrease_rate": 20,
+      "maximum_number_of_startups": 12,
+      "minimum_online_duration": 90
+    },
+    {
+      "name": "thf04",
+      "proportionnal_cost": 64,
+      "production_levels": [
+        180,
+        200,
+        230,
+        280,
+        340,
+        400
+      ],
+      "startup_cost": 1000,
+      "maximum_increase_rate": 50,
+      "maximum_decrease_rate": 50,
+      "maximum_number_of_startups": 12,
+      "minimum_online_duration": 180
+    },
+    {
+      "name": "thf05",
+      "proportionnal_cost": 71,
+      "production_levels": [
+        180,
+        200,
+        230,
+        280,
+        340,
+        400
+      ],
+      "startup_cost": 1000,
+      "maximum_increase_rate": 0,
+      "maximum_decrease_rate": 0,
+      "maximum_number_of_startups": 12,
+      "minimum_online_duration": 180
+    },
+    {
+      "name": "thf06",
+      "proportionnal_cost": 79,
+      "production_levels": [
+        280,
+        300,
+        330,
+        490,
+        540,
+        600
+      ],
+      "startup_cost": 1000,
+      "maximum_increase_rate": 0,
+      "maximum_decrease_rate": 0,
+      "maximum_number_of_startups": 12,
+      "minimum_online_duration": 180
+    },
+    {
+      "name": "thf07",
+      "proportionnal_cost": 90,
+      "production_levels": [
+        280,
+        300,
+        330,
+        490,
+        540,
+        600
+      ],
+      "startup_cost": 0,
+      "maximum_increase_rate": 0,
+      "maximum_decrease_rate": 0,
+      "maximum_number_of_startups": 12,
+      "minimum_online_duration": 180
+    },
+    {
+      "name": "thf08",
+      "proportionnal_cost": 100,
+      "production_levels": [
+        50,
+        200
+      ],
+      "startup_cost": 0,
+      "maximum_increase_rate": 0,
+      "maximum_decrease_rate": 0,
+      "maximum_number_of_startups": 12,
+      "minimum_online_duration": 120
+    },
+    {
+      "name": "thf09",
+      "proportionnal_cost": 101,
+      "production_levels": [
+        50,
+        200
+      ],
+      "startup_cost": 0,
+      "maximum_increase_rate": 0,
+      "maximum_decrease_rate": 0,
+      "maximum_number_of_startups": 12,
+      "minimum_online_duration": 120
+    },
+    {
+      "name": "thf10",
+      "proportionnal_cost": 107,
+      "production_levels": [
+        50,
+        200
+      ],
+      "startup_cost": 0,
+      "maximum_increase_rate": 0,
+      "maximum_decrease_rate": 0,
+      "maximum_number_of_startups": 12,
+      "minimum_online_duration": 120
+    }
+    ,
+    {
+      "name": "thf11",
+      "proportionnal_cost": 118,
+      "production_levels": [
+        50,
+        200
+      ],
+      "startup_cost": 0,
+      "maximum_increase_rate": 0,
+      "maximum_decrease_rate": 0,
+      "maximum_number_of_startups": 12,
+      "minimum_online_duration": 120
+    }
+  ],
+  "reservoirs": [
+    {
+      "water_value": 0.0410000002,
+      "maximum_volume": 191062496,
+      "upstream_hydroplants_ids": [],
+      "downstream_hydroplants_ids": [
+        0,
+        1
+      ],
+      "initial_volume": 90754408,
+      "minimum_volume": 0,
+      "id": 0,
+      "inflows": 2
+    },
+    {
+      "water_value": 0.02000000,
+      "maximum_volume": 2884300,
+      "upstream_hydroplants_ids": [
+        0,
+        1
+      ],
+      "downstream_hydroplants_ids": [
+        2,
+        3
+      ],
+      "initial_volume": 2030991.38,
+      "minimum_volume": 1179000,
+      "id": 1,
+      "inflows": 0.400000006
+    },
+    {
+      "water_value": 0,
+      "maximum_volume": 49458000,
+      "upstream_hydroplants_ids": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "downstream_hydroplants_ids": [
+      ],
+      "initial_volume": 12200002,
+      "minimum_volume": 1845000,
+      "id": 2,
+      "inflows": 0.800000012
+    },
+    {
+      "water_value": 0.083799998,
+      "maximum_volume": 35380000,
+      "upstream_hydroplants_ids": [],
+      "downstream_hydroplants_ids": [
+        4,
+        5
+      ],
+      "initial_volume": 18500026,
+      "minimum_volume": 1240000,
+      "id": 3,
+      "inflows": 0
+    },
+    {
+      "water_value": 0,
+      "maximum_volume": 2560000,
+      "upstream_hydroplants_ids": [
+        6,
+        7
+      ],
+      "downstream_hydroplants_ids": [
+        8
+      ],
+      "initial_volume": 1513000,
+      "minimum_volume": 605000,
+      "id": 4,
+      "inflows": 0.200000003
+    },
+    {
+      "water_value": 0.0481000007,
+      "maximum_volume": 603203168,
+      "upstream_hydroplants_ids": [8],
+      "downstream_hydroplants_ids": [
+        9,
+        10
+      ],
+      "initial_volume": 346500096,
+      "minimum_volume": 279995008,
+      "id": 5,
+      "inflows": 2
+    },
+    {
+      "water_value": 0,
+      "maximum_volume": 1940000,
+      "upstream_hydroplants_ids": [
+        9,
+        10
+      ],
+      "downstream_hydroplants_ids": [
+        11
+      ],
+      "initial_volume": 960000,
+      "minimum_volume": 710000,
+      "id": 6,
+      "inflows": 0
+    },
+    {
+      "water_value": 0,
+      "maximum_volume": 45310000,
+      "upstream_hydroplants_ids": [
+        11
+      ],
+      "downstream_hydroplants_ids": [
+        12
+      ],
+      "initial_volume": 34935044,
+      "minimum_volume": 27090000,
+      "id": 7,
+      "inflows": 8
+    },
+    {
+      "water_value": 0,
+      "maximum_volume": 18730000,
+      "upstream_hydroplants_ids": [
+        12,
+        13
+      ],
+      "downstream_hydroplants_ids": [
+        14
+      ],
+      "initial_volume": 13035690,
+      "minimum_volume": 8690000,
+      "id": 8,
+      "inflows": 1
+    },
+    {
+      "water_value": 0.081000007,
+      "maximum_volume": 3596800,
+      "upstream_hydroplants_ids": [],
+      "downstream_hydroplants_ids": [
+        13
+      ],
+      "initial_volume": 2500005.75,
+      "minimum_volume": 2044000,
+      "id": 9,
+      "inflows": 1
+    },
+    {
+      "water_value": 0,
+      "maximum_volume": 25300000,
+      "upstream_hydroplants_ids": [
+        14
+      ],
+      "downstream_hydroplants_ids": [
+        15
+      ],
+      "initial_volume": 18000000,
+      "minimum_volume": 13500000,
+      "id": 10,
+      "inflows": 0
+    },
+    {
+      "water_value": 0,
+      "maximum_volume": 130000000,
+      "upstream_hydroplants_ids": [
+        15
+      ],
+      "downstream_hydroplants_ids": [
+        16
+      ],
+      "initial_volume": 50000,
+      "minimum_volume": 0,
+      "id": 11,
+      "inflows": 342
+    }
+  ],
+  "hydro_powerplants": [
+    {
+      "maximum_decrease_rate": 3333.3,
+      "downstream_delay": 1,
+      "id": 0,
+      "operating_levels": [
+        {
+          "flow": 72,
+          "id": 0,
+          "power": 61
+        }
+      ],
+      "maximum_increase_rate": 3333.3
+    },
+    {
+      "maximum_decrease_rate": 2,
+      "downstream_delay": 1,
+      "id": 1,
+      "operating_levels": [
+        {
+          "flow": 39,
+          "id": 0,
+          "power": 31
+        },
+        {
+          "flow": 39,
+          "id": 1,
+          "power": 30
+        },
+        {
+          "flow": 39,
+          "id": 2,
+          "power": 28
+        }
+      ],
+      "maximum_increase_rate": 2
+    },
+    {
+      "maximum_decrease_rate": 3333.3,
+      "downstream_delay": 0,
+      "id": 2,
+      "operating_levels": [
+        {
+          "flow": 85,
+          "id": 0,
+          "power": 190
+        }
+      ],
+      "maximum_increase_rate": 3333.3
+    },
+    {
+      "maximum_decrease_rate": 15,
+      "downstream_delay": 0,
+      "id": 3,
+      "operating_levels": [
+        {
+          "flow": 9.39999962,
+          "id": 0,
+          "power": 20
+        },
+        {
+          "flow": 11.60000038,
+          "id": 1,
+          "power": 25
+        },
+        {
+          "flow": 14.0999985,
+          "id": 2,
+          "power": 30
+        },
+        {
+          "flow": 11.9000015,
+          "id": 3,
+          "power": 25
+        },
+        {
+          "flow": 11,
+          "id": 4,
+          "power": 23
+        },
+        {
+          "flow": 12,
+          "id": 5,
+          "power": 24
+        }
+      ],
+      "maximum_increase_rate": 30
+    },
+    {
+      "maximum_decrease_rate": 3333.3,
+      "downstream_delay": 0,
+      "id": 4,
+      "operating_levels": [
+        {
+          "flow": 55,
+          "id": 0,
+          "power": 90
+        },
+        {
+          "flow": 55,
+          "id": 1,
+          "power": 190
+        },
+        {
+          "flow": 56,
+          "id": 2,
+          "power": 190
+        },
+        {
+          "flow": 56,
+          "id": 3,
+          "power": 190
+        }
+      ],
+      "maximum_increase_rate": 3333.3
+    },
+    {
+      "maximum_decrease_rate": 3333.3,
+      "downstream_delay": 0,
+      "id": 5,
+      "operating_levels": [
+        {
+          "flow": -45,
+          "id": 0,
+          "power": -205
+        },
+        {
+          "flow": -40,
+          "id": 1,
+          "power": -205
+        },
+        {
+          "flow": -30,
+          "id": 2,
+          "power": -205
+        },
+        {
+          "flow": -20,
+          "id": 3,
+          "power": -205
+        }
+      ],
+      "maximum_increase_rate": 3.334
+    },
+    {
+      "maximum_decrease_rate": 3333.3,
+      "downstream_delay": 1,
+      "id": 6,
+      "operating_levels": [
+        {
+          "flow": 91.5999985,
+          "id": 0,
+          "power": 61
+        }
+      ],
+      "maximum_increase_rate": 3333.3
+    },
+    {
+      "maximum_decrease_rate": 30,
+      "downstream_delay": 1,
+      "id": 7,
+      "operating_levels": [
+        {
+          "flow": 57.7000008,
+          "id": 0,
+          "power": 23
+        },
+        {
+          "flow": 57.7999992,
+          "id": 1,
+          "power": 23
+        }
+      ],
+      "maximum_increase_rate": 30
+    },
+    {
+      "maximum_decrease_rate": 3333.3,
+      "downstream_delay": 0,
+      "id": 8,
+      "operating_levels": [
+        {
+          "flow": 11,
+          "id": 0,
+          "power": 9.399999979
+        },
+        {
+          "flow": 11,
+          "id": 1,
+          "power": 9.299999979
+        },
+        {
+          "flow": 5,
+          "id": 2,
+          "power": 2.39999997
+        },
+        {
+          "flow": 10,
+          "id": 3,
+          "power": 4.9000001
+        },
+        {
+          "flow": 10,
+          "id": 4,
+          "power": 5.89999985
+        },
+        {
+          "flow": 10,
+          "id": 5,
+          "power": 5.9000001
+        },
+        {
+          "flow": 5,
+          "id": 6,
+          "power": 3.5
+        },
+        {
+          "flow": 5,
+          "id": 7,
+          "power": 0.4000001
+        },
+        {
+          "flow": 10,
+          "id": 8,
+          "power": 4.90000009
+        },
+        {
+          "flow": 10,
+          "id": 9,
+          "power": 4.89999962
+        },
+        {
+          "flow": 10,
+          "id": 10,
+          "power": 2.90000057
+        },
+        {
+          "flow": 10,
+          "id": 11,
+          "power": 5.89999962
+        },
+        {
+          "flow": 10,
+          "id": 12,
+          "power": 6.89999962
+        },
+        {
+          "flow": 20,
+          "id": 13,
+          "power": 9.80000018
+        },
+        {
+          "flow": 10,
+          "id": 14,
+          "power": 4.9000006
+        },
+        {
+          "flow": 10,
+          "id": 15,
+          "power": 4.8999996
+        },
+        {
+          "flow": 10,
+          "id": 16,
+          "power": 4.8999996
+        },
+        {
+          "flow": 10,
+          "id": 17,
+          "power": 4.9000006
+        },
+        {
+          "flow": 10,
+          "id": 18,
+          "power": 4.9000006
+        },
+        {
+          "flow": 20,
+          "id": 19,
+          "power": 14.7999992
+        },
+        {
+          "flow": 20,
+          "id": 20,
+          "power": 9.7999992
+        }
+      ],
+      "maximum_increase_rate": 20.01
+    },
+    {
+      "maximum_decrease_rate": 54.01,
+      "downstream_delay": 0,
+      "id": 9,
+      "operating_levels": [
+        {
+          "flow": 59,
+          "id": 0,
+          "power": 50
+        },
+        {
+          "flow": 52.400002,
+          "id": 1,
+          "power": 42
+        },
+        {
+          "flow": 90.499992,
+          "id": 2,
+          "power": 75
+        },
+        {
+          "flow": 73.899994,
+          "id": 3,
+          "power": 61
+        },
+        {
+          "flow": 73.899994,
+          "id": 3,
+          "power": 51
+        },
+        {
+          "flow": 73.899994,
+          "id": 3,
+          "power": 41
+        },
+        {
+          "flow": 73.899994,
+          "id": 3,
+          "power": 21
+        }
+      ],
+      "maximum_increase_rate": 54.01
+    },
+    {
+      "maximum_decrease_rate": 3333.3,
+      "downstream_delay": 0,
+      "id": 10,
+      "operating_levels": [
+        {
+          "flow": -64,
+          "id": 0,
+          "power": -65
+          
+        },
+        {
+          "flow": -44,
+          "id": 0,
+          "power": -65
+          
+        },
+        {
+          "flow": -24,
+          "id": 0,
+          "power": -65
+          
+        }
+      ],
+      "maximum_increase_rate": 3333.3
+    },
+    {
+      "maximum_decrease_rate": 3333.3,
+      "downstream_delay": 0,
+      "id": 11,
+      "operating_levels": [
+        {
+          "flow": 50,
+          "id": 0,
+          "power": 30
+        },
+        {
+          "flow": 15,
+          "id": 1,
+          "power": 14
+        },
+        {
+          "flow": 7,
+          "id": 2,
+          "power": 8
+        },
+        {
+          "flow": 28,
+          "id": 3,
+          "power": 15
+        },
+        {
+          "flow": 26,
+          "id": 4,
+          "power": 17
+        },
+        {
+          "flow": 18.5,
+          "id": 5,
+          "power": 12
+        },
+        {
+          "flow": 10.5,
+          "id": 6,
+          "power": 2
+        }
+      ],
+      "maximum_increase_rate": 3333.3
+    },
+    {
+      "maximum_decrease_rate": 46.68,
+      "downstream_delay": 0,
+      "id": 12,
+      "operating_levels": [
+        {
+          "flow": 60,
+          "id": 0,
+          "power": 40
+        },
+        {
+          "flow": 8,
+          "id": 1,
+          "power": 2
+        },
+        {
+          "flow": 22,
+          "id": 2,
+          "power": 9
+        },
+        {
+          "flow": 30,
+          "id": 3,
+          "power": 15
+        },
+        {
+          "flow": 15,
+          "id": 4,
+          "power": 13
+        },
+        {
+          "flow": 45,
+          "id": 5,
+          "power": 17
+        },
+        {
+          "flow": 30,
+          "id": 6,
+          "power": 5
+        },
+        {
+          "flow": 30,
+          "id": 7,
+          "power": 19
+        }
+      ],
+      "maximum_increase_rate": 46.68
+    },
+    {
+      "maximum_decrease_rate": 2,
+      "downstream_delay": 0,
+      "id": 13,
+      "operating_levels": [
+        {
+          "flow": 15,
+          "id": 0,
+          "power": 12
+        },
+        {
+          "flow": 15,
+          "id": 1,
+          "power": 12
+        }
+      ],
+      "maximum_increase_rate": 2
+    },
+    {
+      "maximum_decrease_rate": 4.334,
+      "downstream_delay": 0,
+      "id": 14,
+      "operating_levels": [
+        {
+          "flow": 60,
+          "id": 0,
+          "power": 47
+        },
+        {
+          "flow": 61,
+          "id": 1,
+          "power": 47
+        },
+        {
+          "flow": 61,
+          "id": 2,
+          "power": 37
+        }
+      ],
+      "maximum_increase_rate": 4.334
+    },
+    {
+      "maximum_decrease_rate": 1.568,
+      "downstream_delay": 9,
+      "id": 15,
+      "operating_levels": [
+        {
+          "flow": 12.3000002,
+          "id": 0,
+          "power": 6
+        },
+        {
+          "flow": 17.6999998,
+          "id": 1,
+          "power": 6
+        },
+        {
+          "flow": 12.5,
+          "id": 2,
+          "power": 12
+        },
+        {
+          "flow": 12.5,
+          "id": 3,
+          "power": 9
+        },
+        {
+          "flow": 10,
+          "id": 4,
+          "power": 8
+        },
+        {
+          "flow": 15,
+          "id": 5,
+          "power": 12
+        },
+        {
+          "flow": 14.9000015,
+          "id": 6,
+          "power": 12
+        },
+        {
+          "flow": 15.0999985,
+          "id": 7,
+          "power": 12
+        },
+        {
+          "flow": 11,
+          "id": 8,
+          "power": 6
+        },
+        {
+          "flow": 13,
+          "id": 9,
+          "power": 12
+        },
+        {
+          "flow": 11.5,
+          "id": 10,
+          "power": 8
+        },
+        {
+          "flow": 11.5,
+          "id": 11,
+          "power": 2
+        },
+        {
+          "flow": 15,
+          "id": 12,
+          "power": 12
+        },
+        {
+          "flow": 15.5,
+          "id": 13,
+          "power": 12
+        },
+        {
+          "flow": 18.5,
+          "id": 14,
+          "power": 12
+        },
+        {
+          "flow": 19,
+          "id": 15,
+          "power": 12
+        }
+      ],
+      "maximum_increase_rate": 1.568
+    },
+    {
+      "maximum_decrease_rate": 3333.3,
+      "downstream_delay": 0,
+      "id": 16,
+      "operating_levels": [
+        {
+          "flow": 40,
+          "id": 0,
+          "power": 24
+        },
+        {
+          "flow": 40,
+          "id": 1,
+          "power": 14
+        },
+        {
+          "flow": 40,
+          "id": 2,
+          "power": 14
+        },
+        {
+          "flow": 40,
+          "id": 3,
+          "power": 14
+        },
+        {
+          "flow": 40,
+          "id": 4,
+          "power": 24
+        },
+        {
+          "flow": 40,
+          "id": 5,
+          "power": 14
+        },
+        {
+          "flow": 40,
+          "id": 6,
+          "power": 24
+        },
+        {
+          "flow": 40,
+          "id": 7,
+          "power": 24
+        },
+        {
+          "flow": 40,
+          "id": 8,
+          "power": 4
+        },
+        {
+          "flow": 40,
+          "id": 9,
+          "power": 24
+        },
+        {
+          "flow": 40,
+          "id": 10,
+          "power": 14
+        },
+        {
+          "flow": 40,
+          "id": 11,
+          "power": 14
+        },
+        {
+          "flow": 40,
+          "id": 12,
+          "power": 14
+        },
+        {
+          "flow": 40,
+          "id": 13,
+          "power": 4
+        },
+        {
+          "flow": 40,
+          "id": 14,
+          "power": 12
+        },
+        {
+          "flow": 150,
+          "id": 15,
+          "power": 12
+        },
+        {
+          "flow": 550,
+          "id": 16,
+          "power": -2
+        },
+        {
+          "flow": 700,
+          "id": 17,
+          "power": -7
+        }
+      ],
+      "maximum_increase_rate": 3333.3
+    }
+  ],
+  "steps": [
+    {
+      "id": 0,
+      "id_turb": 4,
+      "id_pump": 5
+    },
+    {
+      "id": 1,
+      "id_turb": 9,
+      "id_pump": 10
+    }
+    
+    
+  ],
+  "valleys": [
+    {
+      "reservoirs_ids": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "hydroplants_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "reservoirs_ids": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "hydroplants_ids": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ]
+    }
+  ]
+}
